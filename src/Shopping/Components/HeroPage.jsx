@@ -5,7 +5,7 @@ const HeroPage = () => {
     <div>
       <div id="BannerImg">ds</div>
 
-      <div className="cardContainer">
+      <div className="cardContainer" id='ShoppingArea'>
         <div className="card">
           <h2 className='ShoeName'> Nike Air Force 1</h2>
           <div className="dsdds">

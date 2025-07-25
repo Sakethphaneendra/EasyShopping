@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroPage from './HeroPage'
 
 
 function NavBar() {
@@ -9,17 +8,15 @@ function NavBar() {
         <img src="/Images/Nike_Logo.png" alt="Nike Logo" id="pageLogo" />
 
         <ul>
-          <li>Home</li>
+          <a href=".cardContainer"> <li >Home</li> </a>
           <li>Shop</li>
           <li>Pages</li>
           <li>About Us</li>
-          <li>Contact Us</li>
         </ul>
 
         <button id='Signup'>SignUp</button>
       </div>
 
-      <HeroPage/>
     </div>
   )
 }

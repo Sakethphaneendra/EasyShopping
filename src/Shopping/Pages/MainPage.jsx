@@ -2,15 +2,15 @@ import React from 'react'
 import NavBar from '../Components/NavBar'
 import HeroPage from '../Components/HeroPage';
 import Collections from '../Components/Collections';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 
 const MainPage = () => {
   return (
     <div>
       <NavBar/>
-      {/* <HeroPage/>
+      <HeroPage/>
       <Collections/>
-      <Footer/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
