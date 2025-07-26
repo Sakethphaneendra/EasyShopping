@@ -8,10 +8,10 @@ function NavBar() {
         <img src="/Images/Nike_Logo.png" alt="Nike Logo" id="pageLogo" />
 
         <ul>
-          <a href=".cardContainer"> <li >Home</li> </a>
+          <li >Home</li>
           <li>Shop</li>
           <li>Pages</li>
-          <li>About Us</li>
+          <li>Settings</li>
         </ul>
 
         <button id='Signup'>SignUp</button>
