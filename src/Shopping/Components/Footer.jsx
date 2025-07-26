@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <div className="navBar">
+      <div className="footer">
        
-        <img src="/Images/Nike_Logo.png" alt="Nike Logo" id="pageLogo" />
+        <img src="/Images/Nike_Logo.png" alt="Nike Logo" id="nikeLogo" />
 
-        <h4>Design and Developed by @Saketh Phaneendra</h4>
+        <h3 className='footervalue'>Design and Developed by @Saketh Phaneendra</h3>
        
        
       </div>
